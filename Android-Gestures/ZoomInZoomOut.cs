@@ -60,15 +60,7 @@ namespace Android_Gestures
 
         [Test]
         public void ZoomOut_Test()
-        {
-            /*var viewsButton = _driver.FindElement(MobileBy.AccessibilityId("Views"));
-            viewsButton.Click();
-
-            ScrollToText("WebView");
-
-            var webViewButton = _driver.FindElement(MobileBy.AccessibilityId("WebView"));
-            webViewButton.Click();*/
-
+        {            
             ZoomWithCoordinates(213, 379, 239, 701, 348, 1084, 235, 705);
         }
 
